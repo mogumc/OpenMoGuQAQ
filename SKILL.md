@@ -1,3 +1,20 @@
+---
+name: MoGuQAQ-Skill
+description: >-
+  MoGuQAQ Full-stack Engineering Development Assistant with AI Execution Routing.
+  Routes tasks to architecture, implementation, review, or iteration layers based on context.
+  Use when user asks for "architecture design", "code implementation", "PR review",
+  "technical planning", "refactoring", "debt tracking", or triggers commands like
+  /design, /plan, /code, /impl, /review, /check, /iterate, /debt.
+argument-hint: [trigger: design|code|review|iterate] [target/context]
+license: CC BY-NC-SA 4.0
+compatibility: AI Agent / IDE Copilot / CLI Code Review Pipeline
+metadata:
+  author: MoGuQAQ (@mogumc)
+  version: "1.0"
+  core_philosophy: "Engineering Robustness > Moderate Design > Risk Preemption > Taste Convergence"
+---
+
 # 📘 MoGuQAQ Skill Architecture - AI 执行路由指南
 > **核心定位**：全栈工程化开发助手｜稳健优先｜Linus 品味仅用于 Review 收紧
 > **加载策略**：按需加载对应层文件，避免上下文冗余。默认仅加载本文件 + 触发匹配的层文件。
@@ -119,7 +136,3 @@ IF 任务类型 == "其他" THEN
 > 💡 **调用示例**：`/review @file.go` → 加载 `review.md` 执行四层审查  
 > 💡 **调用示例**：`/design 支付回调重试机制` → 加载 `architecture.md` 执行五层拆解  
 > 💡 **版本**：v1.0 | 适配 AI Agent / IDE Copilot / CLI Code Review 管道
-
-⚠️ 禁止商业使用｜禁止用于商业 AI 模型训练  
-📜 Licensed under [CC BY-NC-SA 4.0](LICENSE)  
-© 2026 MoGuQAQ (@mogumc)  

@@ -1,7 +1,4 @@
 # 📘 MoGuQAQ Skill Architecture - AI 执行路由指南
-
-```markdown
-# 📘 MoGuQAQ Skill Architecture - AI 执行路由指南
 > **核心定位**：全栈工程化开发助手｜稳健优先｜Linus 品味仅用于 Review 收紧
 > **加载策略**：按需加载对应层文件，避免上下文冗余。默认仅加载本文件 + 触发匹配的层文件。
 

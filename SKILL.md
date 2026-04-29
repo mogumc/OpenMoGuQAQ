@@ -78,9 +78,9 @@ IF 任务类型 == "复盘/债务追踪/规范迭代" THEN
   OUTPUT 债务条目 + 演进建议
   STOP
 
-IF 任务类型 == "其他" THEN
+IF 任务类型 == "未命中路由" THEN
 
-  OUTPUT 跳过SKILL正常回复
+  OUTPUT 遵循Agent默认习惯输出
 
   STOP
 ```

@@ -113,6 +113,6 @@ IF 任务类型 == "复盘/债务追踪/规范迭代" THEN
 > 💡 **调用示例**：`/design 支付回调重试机制` → 加载 `architecture.md` 执行五层拆解  
 > 💡 **版本**：v1.0 | 适配 AI Agent / IDE Copilot / CLI Code Review 管道
 
-⚠️ 禁止商业使用｜禁止用于商业 AI 模型训练
+⚠️ 禁止商业使用｜禁止用于商业 AI 模型训练  
 📜 Licensed under [CC BY-NC-SA 4.0](LICENSE)  
-© 2026 MoGuQAQ (@mogumc)
+© 2026 MoGuQAQ (@mogumc)  

@@ -125,10 +125,10 @@ IF 以上均不匹配 THEN
 
 ---
 
-> 💡 **调用示例**：`/review @file.go` → 加载 `review.md` 执行四层审查
-> 💡 **调用示例**：`/design 支付回调重试机制` → 加载 `architecture.md` 执行五层拆解
-> 💡 **调用示例**：任何层执行中调用工具（如 read_file / search_content / task）→ 自动加载 `toolguard.md` 保障调用可靠性
-> 💡 **版本**：v1.1 | 适配 AI Agent / IDE Copilot / CLI Code
+> 💡 **调用示例**：`/review @file.go` → 加载 `review.md` 执行四层审查  
+> 💡 **调用示例**：`/design 支付回调重试机制` → 加载 `architecture.md` 执行五层拆解  
+> 💡 **调用示例**：任何层执行中调用工具（如 read_file / search_content / task）→ 自动加载 `toolguard.md` 保障调用可靠性  
+> 💡 **版本**：v1.1 | 适配 AI Agent / IDE Copilot / CLI Code  
 
 ⚠️ 禁止商业使用｜禁止用于商业 AI 模型训练  
 📜 Licensed under [CC BY-NC-SA 4.0](LICENSE)  

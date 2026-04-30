@@ -1,8 +1,3 @@
----
-name: moguqaq-skill
-description: MoGuQAQ Full-stack Engineering Development Assistant
----
-
 # ⚠️ 强制执行契约（必读）
 
 **你作为AI模型，必须无条件遵守以下路由规则。任何违反规则的行为都将导致输出无效。**
